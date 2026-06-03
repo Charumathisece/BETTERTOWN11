@@ -27,7 +27,7 @@ import EmojiEmotionsIcon from '@mui/icons-material/EmojiEmotions';
 import SentimentSatisfiedAltIcon from '@mui/icons-material/SentimentSatisfiedAlt';
 import SentimentDissatisfiedIcon from '@mui/icons-material/SentimentDissatisfied';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5001/api';
+const API_URL = import.meta.env.VITE_API_URL || 'https://bettertown.onrender.com/api';
 
 // Custom styled components
 const StyledRating = styled(Rating)(({ theme }) => ({

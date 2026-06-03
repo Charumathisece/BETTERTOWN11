@@ -38,7 +38,7 @@ import FingerprintIcon from '@mui/icons-material/Fingerprint'; // For Complaint 
 import { format } from 'date-fns'; // For date formatting
 
 // Define API URL
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5001/api';
+const API_URL = import.meta.env.VITE_API_URL || 'https://bettertown.onrender.com/api';
 
 const IssueDetail = () => {
   const { issueId } = useParams();

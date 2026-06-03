@@ -33,7 +33,7 @@ import MoreVertIcon from '@mui/icons-material/MoreVert';
 import StarIcon from '@mui/icons-material/Star';
 import { useNavigate } from 'react-router-dom';
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5001/api';
+const API_URL = import.meta.env.VITE_API_URL || 'https://bettertown.onrender.com/api';
 
 function AdminFeedback() {
   const [feedbackList, setFeedbackList] = useState([]);
